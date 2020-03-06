@@ -1,7 +1,7 @@
 import { employeeHtml } from "./Employee.js"
 import { useEmployee } from "./employeeDataProvider.js"
 
-const targetHtml = document.querySelector(".container")
+const targetHtml = document.querySelector(".employeeAside")
 
 export const EmployeeList = () => {
     //Array of employees
